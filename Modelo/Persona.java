@@ -3,13 +3,12 @@ package Modelo;
 import java.util.ArrayList;
 
 public class Persona {
-    String nombre;
-    String id;
-    String fechaNacimiento;
-    String edad;
-    String direccionCasa;
-    ArrayList<Integer> cuentas = new ArrayList<Integer>();
-
+    private String nombre;
+    private String id;
+    private String fechaNacimiento;
+    private String edad;
+    private String direccionCasa;
+    private ArrayList<Integer> cuentas = new ArrayList<Integer>();
 
     public Persona(String nombre, String id, String fechaNacimiento, String edad, String direccionCasa, ArrayList<Integer> cuentas) {
         this.nombre = nombre;
